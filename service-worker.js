@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/kostisJP/demo.git/precache-manifest.fe7306d80f29b2cb1494b0b622b825a9.js"
+  "/demo/precache-manifest.76c2c00457de8755dee9dcfe8ee3f22d.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/kostisJP/demo.git/index.html", {
+workbox.routing.registerNavigationRoute("/demo/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
